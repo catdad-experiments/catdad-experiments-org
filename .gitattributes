@@ -28,3 +28,6 @@
 *.PDF    diff=astextplain
 *.rtf    diff=astextplain
 *.RTF    diff=astextplain
+
+# Everything in assets will be binary
+assets/* binary
