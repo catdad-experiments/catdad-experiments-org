@@ -32,3 +32,11 @@
 # Image types are all binary
 *.ai    binary
 *.psd   binary
+
+# LFS stuff
+
+watchboy/charles-lJJlaUWYrPE-unsplash.jpg filter=lfs diff=lfs merge=lfs -text
+watchboy/charles-lJJlaUWYrPE-unsplash.psd filter=lfs diff=lfs merge=lfs -text
+
+canvas-confetti/*.jpg filter=lfs diff=lfs merge=lfs -text
+canvas-confetti/*.psd filter=lfs diff=lfs merge=lfs -text
